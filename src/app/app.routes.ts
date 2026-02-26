@@ -1,6 +1,11 @@
 import { Routes } from '@angular/router';
 import { TemplateDemo } from './template-demo/template-demo';
+import { ReactiveDemo } from './reactive-demo/reactive-demo';
+import { CustomizeDemo } from './custome/customize-demo'; // <--- PUT IT HERE
 
 export const routes: Routes = [
-  { path: '', component: TemplateDemo } // Sets this form as the home page
+  { path: 'template', component: TemplateDemo },
+  { path: 'reactive', component: ReactiveDemo },
+  { path: 'custom', component: CustomizeDemo }, // <--- AND UPDATE THIS
+  { path: '', redirectTo: '/template', pathMatch: 'full' }
 ];
