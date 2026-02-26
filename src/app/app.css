@@ -4,8 +4,8 @@
 
 .navbar {
   background-color: #ffffff;
-  border-bottom: 2px solid #fce4ec; /* Pink border */
-  color: #ad1457; /* Deep pink text */
+  border-bottom: 2px solid #fce4ec; 
+  color: #ad1457; 
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -53,7 +53,6 @@
   background-color: #fff8fa;
 }
 
-/* Style for the current active page */
 .active-tab {
   background-color: #fce4ec !important;
   color: #880e4f !important;
